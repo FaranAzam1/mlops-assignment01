@@ -27,7 +27,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest -v
+          python -mpytest -v
 
   docker-build-check:
     name: Docker Build Validation
